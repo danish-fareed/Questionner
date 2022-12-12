@@ -14,7 +14,7 @@ const success = ref("")
 
 onBeforeMount(() => {
     const { firestore } = useFirebase()
-    const docRef = doc(firestore, `secert`, "BvWAdpyBGw4vx0LgO4Ii")
+    const docRef = doc(firestore, `secert`, "WQrg0FWD5EqLCGgUS2gg")
     onSnapshot(docRef, (snap) => {
         if (snap.exists()) {
             data.value = snap.data()
