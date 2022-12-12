@@ -9,7 +9,7 @@ watch(route, async (newRoute, oldRoute) => {
 </script>
 
 <template>
-    <nav class="bg-[#499F9F] rounded-xl p-4 md:p-16 flex flex-col justify-center items-center gap-16">
+    <nav class="bg-[#232E52] rounded-xl p-4 md:p-16 flex flex-col justify-center items-center gap-16">
         <div class="flex flex-col gap-5">
             <NuxtLink to="/">
                 <img class="h-[70px] mx-auto" src="~/assets/logo-white.svg" alt="Questionner Logo">
