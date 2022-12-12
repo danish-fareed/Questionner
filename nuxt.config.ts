@@ -8,4 +8,9 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    generate: {
+        routes: [
+            "/admin",
+        ],
+    },
 })
