@@ -34,7 +34,7 @@ const addNewPost = async () => {
             const docRef = await addDoc(collection(firestore, "posts"), {
                 title: titleInput.value,
                 description: descriptionInput.value,
-                content: contentInput.value,
+                content: "https://raw.githubusercontent.com/danish-fareed/blog-database/main/" + contentInput.value,
                 created_at: serverTimestamp(),
                 updated_at: serverTimestamp()
             })
