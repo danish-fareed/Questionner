@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "GraphikBlack";
+    src: url(~/assets/fonts/GraphikBlack.otf) format("opentype");
+}
+
+.graphik-black {
+    font-family: "GraphikBlack";
+}
+
+@font-face {
+    font-family: "GraphikBold";
+    src: url(~/assets/fonts/GraphikBold.otf) format("opentype");
+}
+
+.graphik-bold {
+    font-family: "GraphikBold";
+}
+
+@font-face {
+    font-family: "GraphikExtralight";
+    src: url(~/assets/fonts/GraphikExtralight.otf) format("opentype");
+}
+
+.graphik-extralight {
+    font-family: "GraphikExtralight";
+}
+
+@font-face {
+    font-family: "GraphikLight";
+    src: url(~/assets/fonts/GraphikLight.otf) format("opentype");
+}
+
+.graphik-light {
+    font-family: "GraphikLight";
+}
+
+@font-face {
+    font-family: "GraphikMedium";
+    src: url(~/assets/fonts/GraphikMedium.otf) format("opentype");
+}
+
+.graphik-medium {
+    font-family: "GraphikMedium";
+}
+
+@font-face {
+    font-family: "GraphikRegular";
+    src: url(~/assets/fonts/GraphikRegular.otf) format("opentype");
+}
+
+.graphik-regular {
+    font-family: "GraphikRegular";
+}
+
+@font-face {
+    font-family: "GraphikSemibold";
+    src: url(~/assets/fonts/GraphikSemibold.otf) format("opentype");
+}
+
+.graphik-semibold {
+    font-family: "GraphikSemibold";
+}
+
+@font-face {
+    font-family: "GraphikSuper";
+    src: url(~/assets/fonts/GraphikSuper.otf) format("opentype");
+}
+
+.graphik-super {
+    font-family: "GraphikSuper";
+}
+
+@font-face {
+    font-family: "GraphikThin";
+    src: url(~/assets/fonts/GraphikThin.otf) format("opentype");
+}
+
+.graphik-thin {
+    font-family: "GraphikThin";
+}
