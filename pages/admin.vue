@@ -19,7 +19,7 @@ onBeforeMount(() => {
         if (snap.exists()) {
             data.value = snap.data()
         } else {
-            throw showError({ statusCode: 404, statusMessage: 'Page Not Found' })
+            // throw showError({ statusCode: 404, statusMessage: 'Page Not Found' })
         }
     })
 })
