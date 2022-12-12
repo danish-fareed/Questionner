@@ -14,12 +14,12 @@ const success = ref("")
 
 onBeforeMount(() => {
     const { firestore } = useFirebase()
-    const docRef = doc(firestore, `secert`, "WQrg0FWD5EqLCGgUS2gg")
+    const docRef = doc(firestore, `secret`, "WQrg0FWD5EqLCGgUS2gg")
     onSnapshot(docRef, (snap) => {
         if (snap.exists()) {
             data.value = snap.data()
         } else {
-            // throw showError({ statusCode: 404, statusMessage: 'Page Not Found' })
+            throw showError({ statusCode: 404, statusMessage: 'Page Not Found' })
         }
     })
 })
