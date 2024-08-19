@@ -8,6 +8,7 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    plugins: ['~/plugins/gtag.js'],  // Register the GTM plugin here
     generate: {
         routes: [
             "/admin",
