@@ -47,15 +47,6 @@ const addNewPost = async () => {
 </script>
 
 <template>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-TVYKBZ15RV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-TVYKBZ15RV');
-</script>
     <div class="flex gap-4 flex-col justify-center items-center h-screen">
         <h1 class="text-[#232E52] graphik-bold">Add New Post</h1>
         <div v-if="error != ''"
